@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 print('请输入小明的身高h ,体重w ')
-h = float(input('h: '))
-w = float(input('w: '))
-bmi = int(w/(h*h))
+hi = float(input('hi: '))
+wi = float(input('wi: '))
+bmi = int(wi/(hi**2))
 print('bmi=  %.2f' % bmi)
 if bmi < 18.5:
     print('过轻')
